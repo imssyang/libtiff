@@ -1,4 +1,5 @@
 
 ./autogen.sh
 ./configure --prefix=/opt/libtiff --sysconfdir=/opt/libtiff/conf
+mv /opt/libtiff/lib/pkgconfig/libtiff-4.pc /opt/libtiff/lib/pkgconfig/libtiff.pc
 
